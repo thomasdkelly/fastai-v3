@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
+export_file_url = 'http://localhost:8080/files/tutorials/fastai/course-v3/nbs/dl1/data/crops'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['maize', 'quinoa', 'rice']
 path = Path(__file__).parent
 
 app = Starlette()
