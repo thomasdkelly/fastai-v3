@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'http://localhost:8080/files/tutorials/fastai/course-v3/nbs/dl1/data/crops'
+export_file_url = 'https://drive.google.com/open?id=1txivJB4sCcU1kfT_bSKkCOgvnPm_6JPi'
 export_file_name = 'export.pkl'
 
 classes = ['maize', 'quinoa', 'rice']
